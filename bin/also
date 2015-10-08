@@ -1,3 +1,18 @@
 #!/usr/bin/env ruby
 
 require "also"
+require "commander/import"
+
+program :name, "also"
+program :version, "1.0.0"
+program :description, "Runs multiple processes easily"
+
+command :run do |let|
+  let.syntax = "also ['command'...]"
+  let.description = "Runs"
+  let.action do |arguments, options|
+    Also.new(arguments, options)
+  end
+end
+
+default_command :run

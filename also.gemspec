@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.version = Also::VERSION
   spec.authors = ["Kurtis Rainbolt-Greene"]
   spec.email = ["me@kurtisrainboltgreene.name"]
-  spec.summary = %q{TODO: Write a gem summary}
+  spec.summary = %q{A tiny tool for running multiple processes concurrently}
   spec.description = spec.summary
   spec.homepage = "http://krainboltgreene.github.io/also"
   spec.license = "MIT"

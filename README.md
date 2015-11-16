@@ -13,13 +13,13 @@ also
   - [![Version](http://img.shields.io/gem/v/also.svg?style=flat-square)](https://rubygems.org/gems/also)
 
 
-TODO: Write a gem description
+A tiny tool for running multiple processes.
 
 
 Using
 =====
 
-TODO: Write usage instructions here
+Just run `also "some shell command" "some shell command" [etc]` and it'll run each concurrently for as long as all commands block.
 
 
 Installing

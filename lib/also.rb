@@ -1,5 +1,5 @@
 require "subprocess"
-require "celluloid"
+require "celluloid/current"
 
 class Also
   include Celluloid
